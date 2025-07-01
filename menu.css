@@ -1,0 +1,54 @@
+/* aqui é o estilo principal */
+body{
+    background-color: #d09169;
+    font-family: Arial, sans-serif;
+    
+}
+.divTitulo{
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+hr{
+    width: 80%;
+    
+}
+
+/* aqui o estilo que possibilita a divisão do site, codigo não autoral */
+.divConteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.divEsquerda,
+.divDireita {
+    width: calc(50% - 150px); /* 50% do espaço disponível menos a largura da barra vertical */
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    li{
+        font-size: 20px;
+    }
+    
+}
+.imgAlinhada img{
+    width: 275px;
+    height: 175px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 15px;    
+}
+.divBarra {
+    width: 2px; /* Largura da barra vertical */
+    background-color: #ccc; /* Cor da barra vertical */
+    margin: 0 20px; /* Espaçamento horizontal entre a barra e os conteúdos */
+}
+
+
+/* aqui o estilo exclusivo da pagina */
+
